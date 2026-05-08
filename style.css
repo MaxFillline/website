@@ -1,8 +1,33 @@
+/*
+Order of properties:
+Size
+Positioning
+Dimentions
+Color
+Styling
+*/
+
+html {
+    font-size: 16px;
+}
+
 body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem;
     background-color: rgb(15, 15, 15);
     color: white;
 }
 
 h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
     color: rgb(25, 50, 150);
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
 }
