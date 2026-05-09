@@ -16,7 +16,7 @@ body {
     font-size: 1rem;
     margin: 0;
     padding: 2rem;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(5, 5, 10);
     color: white;
 }
 
@@ -30,4 +30,8 @@ h1 {
 p {
     font-size: 1rem;
     margin: 1rem 0;
+}
+
+a, a:visited {
+    color: rgb(104, 134, 255);
 }
