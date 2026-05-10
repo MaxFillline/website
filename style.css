@@ -20,9 +20,11 @@ body {
     color: white;
 }
 
-h1 {
+h1, h1 a, h1 a:visited {
     font-size: 3rem;
     text-align: center;
+    font-weight: bold;
+    text-decoration: none;
     margin: 0 0 2rem 0;
     color: rgb(25, 50, 150);
 }
@@ -33,5 +35,15 @@ p {
 }
 
 a, a:visited {
+    font-weight: bold;
     color: rgb(104, 134, 255);
+}
+
+/* Custom Classes */
+
+.construction {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
 }
