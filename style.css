@@ -1,9 +1,11 @@
 /* Variables */
 
 :root {
---background: rgb(15, 15, 15);
---color: rgb(100, 100, 255);
---border: 1px solid var(--color);
+    /* --background: rgb(5, 5, 10);
+    --color: rgb(25,50,150); */
+    --background: rgb(10, 10, 15);
+    --color: rgb(100, 100, 255);
+    --border: 1px solid var(--color);
 }
 
 /* Elements */
