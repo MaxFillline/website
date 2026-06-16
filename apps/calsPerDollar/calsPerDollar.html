@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Per Dollar Calculator</title>
+    <link rel="stylesheet" href="calsPerDollar.css">
+</head>
+<body>
+
+    <label for="itemName">Item Name:</label>
+    <input type="text" id="itemName">
+
+    <label for="servings">Servings Per Container:</label>
+    <input type="number" id="servings">
+
+    <label for="calsPerServing">Calories Per Serving:</label>
+    <input type="number" id="calsPerServing">
+
+    <label for="proteinPerServing">Protein Per Serving (grams) <em>(optional)</em>:</label>
+    <input type="number" id="proteinPerServing">
+
+    <label for="price">Price Per Container:</label>
+    <input type="number" id="price" step="0.01">
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div>
+        <p>Results:</p>
+        <ul id="results"></ul>
+        <button onclick="clearResults()">Clear Results</button>
+    </div>
+
+    <script src="calsPerDollar.js"></script>
+
+</body>
+</html>
