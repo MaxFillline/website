@@ -4,7 +4,8 @@ body {
     background-color: white;
     text-align: center;
     font-family: "Luckiest Guy", sans-serif;
-    color: rgb(25, 20, 189);
+    /* color: rgb(25, 20, 189); Old color*/
+    color: blue;
 }
 
 header {
@@ -45,8 +46,38 @@ nav a {
 }
 
 #toplink {
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
+}
+
+/* Utillity Classes */
+.hidden {
+    display: none;
+}
+
+/* Font Awesome */
+.fa-youtube {
+    color: red;
+}
+
+.fa-gamepad {
+    color: green;
+}
+
+.fa-window-maximize {
+    color: gray;
+}
+
+.fa-calculator {
+    color: gray;
+}
+
+.fa-itch-io {
+    color: red;
+}
+
+.fa-circle-up {
+    color: blue;
 }
