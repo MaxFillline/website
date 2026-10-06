@@ -18,6 +18,11 @@
     "orientation": "portrait",
     "shortcuts": [
         {
+            "name": "YouTube",
+            "short_name": "YouTube",
+            "url": "http://www.youtube.com/@TheMaxFillline"
+        },
+        {
             "name": "Calories Per Dollar",
             "short_name": "Cals / $",
             "url": "/apps/calsPerDollar/calsPerDollar.html"
